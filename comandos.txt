@@ -1,0 +1,9 @@
+Comandos no bash do git
+
+git init: validar e iniciar uma pasta de versionamento.
+
+git add nome_do_arq: leva para uma área de antes do commit.
+
+git add --all: leva todos os arquivos para a área antes do commit.
+
+git commit -m "nome do que foi feito na versão": o versionamento foi feito.
