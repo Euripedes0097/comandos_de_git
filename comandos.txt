@@ -14,4 +14,4 @@ git add --all: leva todos os arquivos para a área antes do commit.
 
 git commit -m "nome do que foi feito na versão": o versionamento foi feito.  
 
-git push "nome_origem" "nome_do_ramo": atualiza o repositório remoto a partir do repositório local
+git push "nome_origem" "nome_do_ramo": atualiza o repositório remoto a partir do repositório local.
