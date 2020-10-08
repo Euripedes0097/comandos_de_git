@@ -1,6 +1,6 @@
 Comandos no bash do git
 
-git init: validar e iniciar uma pasta de versionamento.
+git init: validar e iniciar um repositório de versionamento.
 
 git add nome_do_arq: leva para uma área de antes do commit.
 
@@ -13,4 +13,5 @@ git remote add "nome_origem" "endereço_do_repositório_remoto": nomeia e adiciona
 git add --all: leva todos os arquivos para a área antes do commit.
 
 git commit -m "nome do que foi feito na versão": o versionamento foi feito.  
- git push "nome_origem" "nome_do_ramo".
+
+git push "nome_origem" "nome_do_ramo": atualiza o repositório remoto a partir do repositório local
