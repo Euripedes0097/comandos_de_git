@@ -6,9 +6,11 @@ git add nome_do_arq: leva para uma área de antes do commit.
 
 git config --global user.name "Nome Sobrenome": nome do autor geral do de todos os projetos.
 
-git --config user.email "endereçodeemail": define o endereço da conta.
+git --config user.email "endereço_de_email": define o endereço da conta.
+
+git remote add "nome_origem" "endereço_do_repositório_remoto": nomeia e adiciona o endereço do repositório remoto
 
 git add --all: leva todos os arquivos para a área antes do commit.
 
 git commit -m "nome do que foi feito na versão": o versionamento foi feito.  
- git push "da_origem_para" "nome_do_ramo".
+ git push "nome_origem" "nome_do_ramo".
