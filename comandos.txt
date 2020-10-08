@@ -11,4 +11,4 @@ git --config user.email "endereçodeemail": define o endereço da conta.
 git add --all: leva todos os arquivos para a área antes do commit.
 
 git commit -m "nome do que foi feito na versão": o versionamento foi feito.  
- git push "da_origem_para" main
+ git push "da_origem_para" "nome_do_ramo".
