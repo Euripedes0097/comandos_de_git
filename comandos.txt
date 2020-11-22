@@ -1,19 +1,21 @@
-Comandos no bash do git ou no prompt de comandos do Windows:
+Comandos para o bash do git ou para prompt de comandos do Windows:
 
-git init: validar e iniciar um reposit髍io de versionamento.
+git init: validar e iniciar um reposit贸rio de versionamento.
 
-git add nome_do_arq: leva para uma 醨ea de antes do commit.
+git add nome_do_arq: leva para uma 谩rea de antes do commit.
 
 git config --global user.name "Nome_Sobrenome": nome do autor geral do de todos os projetos.
 
-git --config user.email "endere鏾_de_email": define o endere鏾 da conta.
+git config user.email "endere莽o_de_email": define o endere莽o da conta.
 
-git remote add "nome_de_origem" "endere鏾_do_reposit髍io_remoto": nomeia e adiciona o endere鏾 do reposit髍io remoto
+git remote add "nome_de_origem" "endere莽o_do_reposit贸rio_remoto": nomeia e adiciona o endere莽o do reposit贸rio remoto
 
-git add --all: leva todos os arquivos para a 醨ea antes do commit.
+git add --all: leva todos os arquivos para a 谩rea antes do commit.
 
-git commit -m "nome do que foi feito na vers鉶": o versionamento foi feito.  
+git commit -m "nome do que foi feito na vers茫o": o versionamento foi feito.  
 
-git push "nome_origem" "nome_do_ramo": atualiza o reposit髍io remoto a partir do reposit髍io local.
+git branch -M "nome_do_ramo": cria ou move-se para o ramo
 
-git pull "nome_de_origem"  "nome_do_ramo": atualiza o reposit髍io local partir do reposit髍io remoto.
+git push "nome_origem" "nome_do_ramo": atualiza o reposit贸rio remoto a partir do reposit贸rio local.
+
+git pull "nome_de_origem"  "nome_do_ramo": atualiza o reposit贸rio local partir do reposit贸rio remoto.
